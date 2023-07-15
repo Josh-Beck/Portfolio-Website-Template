@@ -11,7 +11,7 @@ export default function Home() {
     <div className="">
         <Head />
         <div className="min-h-screen w-screen hidden lg:block overflow-hidden screen-background-style">
-            <img src="../../headshot.png" className="w-[20%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
+            <img src="../../static/headshot.png" className="w-[20%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
 
             <div className="w-full text-7xl flex justify-center primary-text p-5 pb-0">
                 {NAME}
@@ -46,7 +46,7 @@ export default function Home() {
         {/* MOBILE */}
         <div className="min-h-screen w-screen lg:hidden overflow-hidden screen-background-style">
 
-        <img src="../../headshot.png" className="w-[50%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
+        <img src="../../static/headshot.png" className="w-[50%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
         <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5">
             {NAME}
         </div>

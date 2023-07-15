@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+    pathPrefix: `/`,
     plugins: [
         'gatsby-plugin-postcss',
         {

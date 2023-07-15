@@ -194,6 +194,15 @@ For the text pages, the routing is handled by the `slug` and `page` fields at th
 ![Screenshot of Bio](/open_source/resources/bio_screenshot.png)
 
 
+## Other Necessary Changes
+
+There are some metadata changes which may be necesary for this site to work properly. This section will cover the small modifications you should make to the other files which support this site.
+
+### Path Prefix
+
+In the [Gatsby Config](/gatsby-config.js) file, change the `pathPrefix` argument to the path of your site. Likely, the path prefix will just be a `/`.
+
+
 ## Hosting and Deploying
 
 In order to get your website out into the internet, you'll need two processes. *Deploying* is the process by which you take your code, package it in a way that a web server can understand, and "deploy" it out onto the internet. *Hosting* is the method/company/type of server you use to have your website sit on the internet. How to do each is discussed below.
