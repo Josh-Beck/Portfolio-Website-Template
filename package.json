@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "dev": "gatsby develop",
     "start": "gatsby develop",
     "serve": "gatsby serve",
@@ -17,7 +17,9 @@
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "gatsby": "^5.10.0",
+    "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.10.0",
+    "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-source-filesystem": "^5.10.0",
     "gatsby-transformer-remark": "^6.10.0",
     "gh-pages": "^5.0.0",

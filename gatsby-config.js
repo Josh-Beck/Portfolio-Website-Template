@@ -11,6 +11,8 @@ module.exports = {
     pathPrefix: `/Portfolio-Website-Template`,
     plugins: [
         'gatsby-plugin-postcss',
+        `gatsby-plugin-image`,
+        `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-transformer-remark`,
             options: {
