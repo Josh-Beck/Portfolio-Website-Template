@@ -15,9 +15,9 @@
 
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/Josh-Beck/Portfolio-Website-Template?color=green&style=for-the-badge)
+<a href="https://img.shields.io/github/license/Josh-Beck/Portfolio-Website-Template?color=green&style=for-the-badge"></a>
 
-![Forks](https://img.shields.io/github/forks/Josh-Beck/Portfolio-Website-Template?style=for-the-badge&logo=github)
+<a href="https://img.shields.io/github/forks/Josh-Beck/Portfolio-Website-Template?style=for-the-badge&logo=github"></a>
 
 </div>
 
