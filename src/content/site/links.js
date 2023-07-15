@@ -49,6 +49,6 @@ export const linkInformation = [
     {
         "icon":RESUME_LINK_NAME,
         "title":capitalize(RESUME_LINK_NAME),
-        "href":"../../../"+RESUME_LINK_NAME+".pdf"
+        "href":"/"+RESUME_LINK_NAME+".pdf"
     },
 ]
