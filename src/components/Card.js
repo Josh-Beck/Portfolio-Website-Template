@@ -1,11 +1,12 @@
 import * as React from "react"
 import CardContent from "./CardContent"
+import { Link } from "gatsby"
 
 let topLevelVars = "group items-center last:mb-20 max-w-6xl m-6 mt-16 p-6 dynamic-card"
 
 export default function Card(props) {
     return (
-        <a href={props.href} id="no-link">
+        <Link href={props.href} id="no-link">
             <div className={topLevelVars}>
                 <div className={props.video ? "pl-1" : ""}>
                     <CardContent 
@@ -25,6 +26,6 @@ export default function Card(props) {
                     />
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
