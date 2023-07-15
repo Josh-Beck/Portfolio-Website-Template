@@ -2,11 +2,11 @@
   <a href="https://josh-beck.github.io/Portfolio-Website-Template/">
     <img alt="Portfolio Template" src="open_source/resources/home.png" width="300" />
   </a>
-  <p align="center">
-  <a href="https://josh-beck.github.io/Portfolio-Website-Template/">
+
+  <a href="https://josh-beck.github.io/Portfolio-Website-Template/bio/">
     <img alt="Portfolio Template" src="open_source/resources/projects.png" width="300" />
   </a>
-</p>
+
 </p>
 
 <h1 align="center">
@@ -31,21 +31,21 @@
 
 ## About
 
-Do you want a cool web portfolio? How about one that is easy to modify, with minimal coding knowledge necessary? Then this is the template for you! Follow the steps below to set up and deploy **Your own website!**
+Do you want a cool web portfolio? How about one that is easy to modify, with minimal coding knowledge necessary? Then this is the template for you! Follow the steps below to set up and deploy **your own website!**
 
 
 ## Development Environment
 
-Local development is the process by which you write your website and quickly review it, all on your local computer, without hosting anything on the internet. It's not technically necessary to run your code locally. You can modify the content of this template on Github in your browser, then use the [Hosting and Deploying](#hosting-and-deploying) section below to see the results of your changes. However, this will take longer to view your changes, and if you change more than just text, you may find it easier to test everything locally beforehand. Therefore, outlined below is the steps to run this website on your computer and quickly see your changes in browser.
+Local development is the process by which you write your website and quickly review it, all on your local computer, without hosting anything on the internet. It's not technically necessary to run your code locally. You can modify the content of this template on Github in your browser, then use the [Hosting and Deploying](#hosting-and-deploying) section below to see the results of your changes. However, this will take longer to view your changes, and if you change more than just text, you may find it easier to test everything locally beforehand. Therefore, outlined below are the steps to run this website on your computer and quickly see your changes in browser.
 
 ### Install NPM & Node
 
-You'll need npm and node installed in order to run this website locally. You can use articles like ["How to Install NPM and Node JS on Mac and Windows"](https://positiwise.com/blog/how-to-install-npm-and-node-js-on-mac-and-windows) to install the following tools: `npm` and `node`. Once these are installed, perform the following commands in the directory of the website:
+You'll need npm and node installed in order to run this website locally. You can use articles like ["How to Install NPM and Node JS on Mac and Windows"](https://positiwise.com/blog/how-to-install-npm-and-node-js-on-mac-and-windows) to install the following tools: `npm` and `node`. Once these are installed, perform the following commands in the local cmd directory of the website:
 
 1. `npm install` - This will install the necessary dependencies for the website to run locally.
 2. `npm run dev` - This will start the website, hosting it on localhost port 8000.
 
-Go to your browser and enter the following URL, which will pull up the website, now running locally on your computer: `http://localhost:8000`
+Go to your browser and enter `http://localhost:8000`, which will pull up the website, now running locally on your computer. Whenever you save changes to website files, as long as this is running, they should update in the browser. Consider restarting it every so often as you develop, to ensure you don't have caching issues.
  
 
 ## Customization
