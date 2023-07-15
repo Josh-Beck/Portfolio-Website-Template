@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: `/Portfolio-Website-Template`,
+    pathPrefix: `/Portfolio-Website-Template/`,
     plugins: [
         'gatsby-plugin-postcss',
         `gatsby-plugin-image`,

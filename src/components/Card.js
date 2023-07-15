@@ -6,7 +6,7 @@ let topLevelVars = "group items-center last:mb-20 max-w-6xl m-6 mt-16 p-6 dynami
 
 export default function Card(props) {
     return (
-        <Link href={props.href} id="no-link">
+        <Link to={props.href} id="no-link">
             <div className={topLevelVars}>
                 <div className={props.video ? "pl-1" : ""}>
                     <CardContent 
