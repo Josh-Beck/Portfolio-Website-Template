@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://josh-beck.github.io/Portfolio-Website-Template/">
-    <img alt="Portfolio Template" src="open_source/resources/home.png" height="300" />
+    <img alt="Portfolio Template" src="open_source/resources/home.png" height="200" />
   </a>
 
   <a href="https://josh-beck.github.io/Portfolio-Website-Template/bio/">
-    <img alt="Portfolio Template" src="open_source/resources/projects.png" height="300" />
+    <img alt="Portfolio Template" src="open_source/resources/projects.png" height="200" />
   </a>
 
 </p>
