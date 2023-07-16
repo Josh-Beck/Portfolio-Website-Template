@@ -160,6 +160,12 @@
         list-style-position: inside;
         @apply text-left;
     }
+    
+    ul {
+        @apply pt-4;
+        @apply pl-4;
+        @apply text-xl;
+    }
 
     code {
         @apply tertiary-color-bg;
