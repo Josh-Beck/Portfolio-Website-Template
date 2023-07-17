@@ -14,7 +14,7 @@ You can begin by editing these markdown files to insert your own content. The [b
 You'll be able to add [links](https://example.com) and pictures!
 
 
-![picture](/logo.png)
+![picture](../logo.png)
 
 
 

@@ -117,7 +117,7 @@
         @apply md:text-2xl;
         @apply primary-color-text;
         @apply first:pt-0;
-        @apply pt-14;
+        @apply pt-10;
     }
 
     h4 {
@@ -125,14 +125,14 @@
         @apply md:text-xl;
         @apply primary-color-text;
         @apply first:pt-0;
-        @apply pt-14;
+        @apply pt-10;
     }
 
     h5 {
         @apply md:text-xl;
         @apply primary-color-text;
         @apply first:pt-0;
-        @apply pt-14;
+        @apply pt-10;
     }
 
     p {
