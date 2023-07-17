@@ -137,6 +137,7 @@
 
     p {
         @apply first:pt-4;
+        @apply last:pb-40;
         @apply pt-5;
         @apply md:text-xl;
         @apply paragraph-color-text;
@@ -149,10 +150,12 @@
 
     a {
         @apply secondary-color-text;
+        @apply font-bold;
     }
     a:hover {
         @apply primary-color-text;
         @apply underline;
+        @apply font-bold;
     }
 
     #no-link {
@@ -184,5 +187,11 @@
         @apply bg-opacity-20;
         @apply rounded-lg;
         @apply overflow-auto;
+    }
+
+    img {
+        @apply w-[70%];
+        @apply m-[2%];
+        @apply mx-[15%];
     }
 }
