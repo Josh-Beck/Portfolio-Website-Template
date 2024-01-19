@@ -112,7 +112,7 @@ Some cool things you can do with these cards are:
 
 ### Resume Download
 
-This is a special route for the website, that directly references a pdf of your resume. The only thing you need to do to get this to work is rename your resume to `resume.pdf` and insert it into the `static` folder, replacing the current [placeholder resume](/static/Resume.pdf). 
+This is a special route for the website, that directly references a pdf of your resume. The only thing you need to do to get this to work is rename your resume to `resume.pdf` and insert it into the `static` folder, replacing the current [placeholder resume](/static/resume.pdf). 
 
 If you don't wish to have a resume, or want to change the button to link to a different file, simply change or delete the `RESUME_LINK_NAME` in the [links.js file](/src/content/site/links.js). You will also need to change the file name of the file you place in the `static` folder. For instance, if you wish to upload a personal essay instead:
 
